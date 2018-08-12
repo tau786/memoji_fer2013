@@ -107,7 +107,7 @@ if __name__ == '__main__':
 	parser = argparse.ArgumentParser()
 	parser.add_argument("--data_dir",
 		type=str,
-		default="data/",
+		default="data",
 		help="Data dir")
 	parser.add_argument("--model_dir",
 		type=str,
@@ -115,7 +115,7 @@ if __name__ == '__main__':
 		help="Model save dir")
 	parser.add_argument("--epochs",
 		type=int,
-		default=5,
+		default=786,
 		help="Model save dir")
 	parser.add_argument("--start_checkpoint",
 		type=str,
